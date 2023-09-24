@@ -1,6 +1,6 @@
 import "./globals.css";
 import { Ubuntu } from "next/font/google";
-
+import Script from "next/script";
 import type { FC, PropsWithChildren } from "react";
 
 const inter = Ubuntu({ weight: "300", subsets: ["latin"] });
@@ -13,6 +13,7 @@ export const metadata = {
 const RootLayout: FC<PropsWithChildren> = ({ children }) => {
   return (
     <html lang="en">
+      <Script src="https://identity.netlify.com/v1/netlify-identity-widget.js" async />
       <body className={inter.className}>{children}</body>
     </html>
   );
