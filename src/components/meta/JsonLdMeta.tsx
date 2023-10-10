@@ -1,3 +1,5 @@
+'use client'
+
 import config from "@/lib/config";
 import { formatISO } from "date-fns";
 import Head from "next/head";
