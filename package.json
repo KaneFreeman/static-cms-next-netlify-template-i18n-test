@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "d": "npm run dev",
+    "b": "npm run build",
+    "s": "npm run start",
+    "l": "npm run lint"
   },
   "dependencies": {
     "@staticcms/core": "3.3.9",
