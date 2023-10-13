@@ -3,7 +3,7 @@
   "public_folder": "/images",
   "slideContainerHeight": "full",
   "autoPlaySpeed": 3,
-  "showNavigation": true,
+  "showNavigation": false,
   "showPagination": true,
   "loopSlides": true,
   "slides": []
