@@ -1,0 +1,10 @@
+{
+  "media_folder": "public/images",
+  "public_folder": "/images",
+  "slideContainerHeight": "full",
+  "autoPlaySpeed": 3,
+  "showNavigation": true,
+  "showPagination": true,
+  "loopSlides": true,
+  "slides": []
+}
